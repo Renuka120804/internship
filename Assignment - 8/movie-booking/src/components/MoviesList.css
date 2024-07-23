@@ -1,0 +1,29 @@
+/* src/components/MoviesList.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-item {
+    text-align: center;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-item h3 {
+    margin-top: 10px;
+  }
+  
